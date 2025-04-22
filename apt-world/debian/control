@@ -1,0 +1,14 @@
+Source: apt-world
+Section: admin
+Priority: optional
+Maintainer: Lior Zippel <liorzippel@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3
+Standards-Version: 4.6.0
+
+Package: apt-world
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3
+Description: Display packages explicitly installed by the user
+ A tool to parse Debian package management files and display a list
+ of packages explicitly installed by the user, similar to Gentoo's
+ selected set.

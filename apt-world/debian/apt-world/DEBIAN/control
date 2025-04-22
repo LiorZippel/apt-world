@@ -1,0 +1,12 @@
+Package: apt-world
+Version: 1.0-1
+Architecture: all
+Maintainer: Lior Zippel <liorzippel@gmail.com>
+Installed-Size: 7
+Depends: python3
+Section: admin
+Priority: optional
+Description: Display packages explicitly installed by the user
+ A tool to parse Debian package management files and display a list
+ of packages explicitly installed by the user, similar to Gentoo's
+ selected set.
